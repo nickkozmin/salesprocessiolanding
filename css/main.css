@@ -430,7 +430,7 @@ ______________________ */
 .section__hero .hero__heading {
   width: 85%;
   max-width: 955px;
-  font: italic 800 40px/1.3 "Montserrat", sans-serif, Arial;
+  font: italic 800 30px/1.3 "Montserrat", sans-serif, Arial;
   letter-spacing: 1.11px;
   text-align: center;
   text-transform: uppercase;
@@ -439,9 +439,9 @@ ______________________ */
 
 .section__hero .hero__video {
   width: 85%;
-  max-width: 540px;
+  max-width: 964px;
   margin: 0 auto;
-  height: 307px;
+  height: 474px;
 }
 
 .section__hero .hero__video .wistia_embed {
