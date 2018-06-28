@@ -1,0 +1,57 @@
+/*   VARIABLES
+______________________ */
+
+
+// ----- Colors ------ 
+$text-color: #5B5B5B;
+$text-color--light: #fff;
+
+// Headings
+$section__heading: #363E43;
+$section__subheading: #546168;
+
+// Button
+$btn--primary: #D70000;
+$btn--play__bg: #E89519;
+
+// Companies
+$border__companies: #DFE8EE;
+
+// Quote
+$quote__text: #2D2C2C;
+
+// How it works
+$how-it-works__text: #2B353B;
+
+// Pricing
+$pricing__heading: #3E4347;
+
+// About
+$about__border: #D4D6D7;
+
+// FAQ
+$faq__bg: #F2F4F6;
+$faq__heading: #21272A;
+
+
+// ------ Fonts ------ 
+$font--primary: 'Montserrat', sans-serif, Arial;
+$font--light: 300;
+$font--reg: 400;
+$font--med: 500;
+$font--semibold: 600;
+$font--extrabold: 800;
+
+
+// ------ Images ------ 
+$hero__bg: url('../img/hero.png');
+$quote-1__bg: url(../img/quote__bg--1.jpg);
+$quote-2__bg: url(../img/quote__bg--2.jpg);
+$quote-3__bg: url(../img/quote__bg--3.jpg);
+$how-it-works__bg--top: url(../img/how-it-works__bg-1.png);
+$how-it-works__bg--bottom: url(../img/how-it-works__bg-2.png);
+$how-it-works__icon: url(../img/icon--how-it-works.png);
+$pricing__bg: url(../img/pricing__bg.jpg);
+$pricing__icon: url(../img/icon--pricing.png);
+$about__bg: url(../img/about__bg.jpg);
+$footer__bg: url(../img/footer__bg.jpg);

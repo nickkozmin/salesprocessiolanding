@@ -1,0 +1,54 @@
+/*   KEYFRAMES - MIXIN
+______________________ */
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
+@include keyframes(draw-graph--1) {
+  0% {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+  }
+  49.5% {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+  }
+  99% {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 0;
+  } 
+}
+
+@include keyframes(draw-graph--2) {
+  0% {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+  }
+  49.5% {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+  }
+  99% {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 0;
+  } 
+}
